@@ -1,4 +1,4 @@
-![Logo](/logo.png)
+![Logo](/img/logo.png)
 
 
 Digital guitar pedal with several effects written in **C** for the **DSPIC30F2012** micro-controller.
@@ -14,7 +14,7 @@ For this project, the team designed both the hardware and the software to build 
 
 ### Tremolo
 
-  This effect uses amplitude modulation to give the signal an oscilating sound. In order to be a modulation of the signal and not an audible signal added to the original one, the frequency of the modulation has to be lower than 20 Hz. 
+  This effect is an amplitude modulation which can change the amplitude and period of the signal. It gives the signal an oscilating sound. In order to be a modulation of the signal and not an audible signal added to the original one, the frequency of the modulation has to be lower than 20 Hz, so the ranges of frequencies available for this modulation goes from 1.54 Hz  to 7.7Hz. The other parameter of this function is the minimum amplitude that the signal may reach. 
 
 ### Octavatron 
   This effect mirrors the negative part of the input signal onto the positive part. This makes the sound louder and of a higher frequency. When properly set up, it is possible to get a perfect octave up with respect to the input signal. 
