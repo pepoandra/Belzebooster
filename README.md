@@ -1,5 +1,3 @@
-# Belzebooster
-
 ![Logo](/logo.png)
 
 
